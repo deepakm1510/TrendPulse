@@ -1,92 +1,92 @@
 post_id,title,category,score,num_comments,author,collected_at,engagement,is_popular
-50481187,"Elevated errors on claude.ai, Claude Code, and platform.claude.com",technology,323,273,__vivek,2026-11-13 19:42:01.228918,0.8425925925925926,True
-50483480,Eli Lilly CEO pushes back on Dario Amodei's ludicrous medical claims,technology,23,2,Noaidi,2026-11-13 19:42:01.229010,0.08333333333333333,False
-50477649,Brave Search API now accepts agentic payments via the x402 protocol,technology,171,96,sjdh76,2026-11-13 19:42:01.229120,0.5581395348837209,False
-50475713,Edge0-145B: Frontier AI Capabilities on Your Own Computer,technology,290,85,sroussey,2026-11-13 19:42:01.229277,0.2920962199312715,True
-50480480,The Dawn of the Data Intelligence Engineer,technology,78,57,jonbaer,2026-11-13 19:42:01.229337,0.7215189873417721,False
-50480659,Is there a 'right amount' of AI?,technology,30,38,milali,2026-11-13 19:42:01.229395,1.2258064516129032,False
-50468888,I'm making LLMs work on small and old devices,technology,409,148,mrashad74,2026-11-13 19:42:01.229499,0.36097560975609755,True
-50481870,AI Is Destroying the Trust Between Writers and Readers,technology,19,3,FinnLobsien,2026-11-13 19:42:01.229841,0.15,False
-50471281,Show HN: Kapso – Iterative learning from enterprise data,technology,51,11,alirezamshi,2026-11-13 19:42:01.229954,0.21153846153846154,False
-50467297,Our software engineering interviews are changing a little,technology,229,214,maitland,2026-11-13 19:42:01.229978,0.9304347826086956,True
-50474883,Chinese frontier AI models carry the fingerprint of export-controlled GPUs,technology,320,122,firloop,2026-11-13 19:42:01.230070,0.38006230529595014,True
-50472506,Vibes Don't Maintain,technology,93,36,dxs,2026-11-13 19:42:01.230107,0.3829787234042553,False
-50474311,AI is turning Apple's app review process into a nightmare for synth developers,technology,184,209,anigbrowl,2026-11-13 19:42:01.230224,1.1297297297297297,True
-50465352,Writing correct software is hard and math alone won’t help us (2016),technology,364,180,AriFordsham,2026-11-13 19:42:01.230269,0.4931506849315068,True
-50482661,AI agents have a big problem: Nobody wants to let them in,technology,9,3,PLenz,2026-11-13 19:42:01.230290,0.3,False
-50478635,Scientists claim the universe is twice as old as believed,technology,91,99,mattm,2026-11-13 19:42:01.230376,1.076086956521739,False
-50446520,Apple has new Mac app coming to make running local AI models easy,technology,557,554,linolevan,2026-11-13 19:42:01.230431,0.992831541218638,True
-50459745,93% of paint splatters are valid Perl programs (2019),technology,576,79,zenincognito,2026-11-13 19:42:01.230500,0.1369150779896014,True
-50455394,A false smoke alarm almost drowned Jane Street's only NYC datacenter,technology,583,274,mbac32768,2026-11-13 19:42:01.230761,0.4691780821917808,True
-50424581,Foldable Flight: The Best Paper Airplanes,technology,1269,167,vismit2000,2026-11-13 19:42:01.230787,0.131496062992126,True
-50437505,Beyond the compiler: Making IBM i run modified native code,technology,14,2,dnet,2026-11-13 19:42:01.230883,0.13333333333333333,False
-50456791,Gemini Decisions API,technology,563,160,iamdelirium,2026-11-13 19:42:01.230912,0.28368794326241137,True
-50436363,Decoding REXPaint Files in Odin,technology,21,1,tylerelton,2026-11-13 19:42:01.230985,0.045454545454545456,False
-50443716,"Claude Whiteboards, Claude Sheets, and Claude Data",technology,296,218,Yorothegoat,2026-11-13 19:42:01.231125,0.734006734006734,True
-50472490,Dwarf planet candidate appears which takes roughly 280 years to orbit our sun,worldnews,340,145,cybermango,2026-11-13 19:42:03.232673,0.4252199413489736,True
-50479098,Global Microsoft Outage,worldnews,216,127,TechTechTech,2026-11-13 19:42:03.232857,0.5852534562211982,True
-50459508,Words of warning about radiocarbon dating medieval human bones,worldnews,75,19,gumby,2026-11-13 19:42:03.233196,0.25,False
-50482045,Europe's electric car sales jump 49% as global EV sales grow,worldnews,76,73,cisc,2026-11-13 19:42:03.233292,0.948051948051948,False
-50469994,Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep,worldnews,313,246,CharlesW,2026-11-13 19:42:03.233516,0.7834394904458599,True
-50479045,Microsoft says attempts to fix global outage not going 'as expected',worldnews,82,66,saikatsg,2026-11-13 19:42:03.233777,0.7951807228915663,False
-50478372,Microsoft struggling to restore service as global outage affects services,worldnews,29,16,aussieguy1234,2026-11-13 19:42:03.233961,0.5333333333333333,False
-50481285,Nvidia scandal: Howard Lutnick under pressure over alleged lack of action,worldnews,6,0,nephihaha,2026-11-13 19:42:03.234011,0.0,False
-50477699,"Waymo robotaxis kept illegally passing school buses after software fix, feds say",worldnews,18,1,gmays,2026-11-13 19:42:03.234316,0.05263157894736842,False
-50437790,Queens Public Library under ransomware attack,worldnews,213,118,rustyhancock,2026-11-13 19:42:03.234368,0.5514018691588785,True
-50455332,"AI, activity, and outcomes in software engineering",worldnews,128,112,azhenley,2026-11-13 19:42:03.234454,0.8682170542635659,False
-50476018,Tool Built by Election Deniers Said These Voters Were Dead. We Found Them Alive,worldnews,24,5,hn_acker,2026-11-13 19:42:03.234965,0.2,False
-50461786,I caught Microsoft Defender uploading my unreleased software without asking,worldnews,64,27,gary23w,2026-11-13 19:42:03.236520,0.4153846153846154,False
-50435962,Make this forward pass as fast as possible,worldnews,32,6,matt_d,2026-11-13 19:42:03.236806,0.18181818181818182,False
-50422628,ChatGPT Desktop forwards your SSH agent to remote machines,worldnews,220,79,DenGorbachev,2026-11-13 19:42:03.237900,0.3574660633484163,True
-50406107,Psalm 7 release: PHP security&static analysis software,worldnews,81,49,danogentili,2026-11-13 19:42:03.237942,0.5975609756097561,False
-50423151,Borrowing a Microsoft-signed shim to abuse Secure Boot on corporate hardware,worldnews,49,13,p4p1,2026-11-13 19:42:03.238506,0.26,False
-50472507,Coffeezilla: Investigating the President [video],worldnews,5,0,iamben,2026-11-13 19:42:03.239236,0.0,False
-50455014,Howard Marks: A Layman Thinks About AI,worldnews,5,0,swolpers,2026-11-13 19:42:03.239439,0.0,False
-50432147,Supply chain attack on Qubole customers,worldnews,20,6,ronreiter,2026-11-13 19:42:03.239849,0.2857142857142857,False
-50463540,I'm Working on a FOSS Linux Pinbal Simulation Engine,sports,127,45,sysrpl,2026-11-13 19:42:05.242276,0.3515625,False
-50448921,A great old-timey game-programming hack (2013),sports,285,72,palsecam,2026-11-13 19:42:05.242728,0.2517482517482518,True
-50469007,Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games,sports,69,58,felixne,2026-11-13 19:42:05.243686,0.8285714285714286,False
-50414117,Show HN: Ghanaian street games you can play in the browser,sports,116,22,samuelaidoo45,2026-11-13 19:42:05.244878,0.18803418803418803,False
-50472411,Tell HN: Major Microsoft Outlook/Exchange Online/Teams Outage in the Americas,sports,13,1,wmchen,2026-11-13 19:42:05.245942,0.07142857142857142,False
-50433659,Fable 5.2 one-shotted my nephew's dream game,sports,504,450,lexandstuff,2026-11-13 19:42:05.246005,0.8910891089108911,True
-50405172,Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack,sports,93,22,hentrep,2026-11-13 19:42:05.248106,0.23404255319148937,False
-50462688,"Richard Posner, influential and iconoclastic federal judge, dies at 87",sports,8,2,pseudolus,2026-11-13 19:42:05.249058,0.2222222222222222,False
-50482175,"Study Hard, Get a Career, Get Ahead? It's Not What It Used to Be",science,16,11,pseudolus,2026-11-13 19:42:07.250699,0.6470588235294118,False
-50465453,Researchers discover rare star system that emits radio signals every 8 minutes,science,132,64,giuliomagnifico,2026-11-13 19:42:07.250844,0.48120300751879697,False
-50445279,Research taste in history: the importance of learning Babylonian math,science,63,9,benbreen,2026-11-13 19:42:07.251404,0.140625,False
-50479113,"Researchers detail over 1,500 verified cases of children with past-life memories",science,12,11,ajmagnifico,2026-11-13 19:42:07.251861,0.8461538461538461,False
-50452655,Can a Linear Program Do Weight-Space Programming?,science,294,47,emschwartz,2026-11-13 19:42:07.252533,0.15932203389830507,True
-50450007,Greg Kurtzer's Ginux is now a userspace kernel,science,122,82,d3Xt3r,2026-11-13 19:42:07.252630,0.6666666666666666,False
-50444684,A comprehensive study of how fingerprintable users are,science,134,69,tomrittervg,2026-11-13 19:42:07.252783,0.5111111111111111,False
-50416640,Peer-to-peer WebRTC connections with built-in signaling and discovery,science,83,31,LuKks,2026-11-13 19:42:07.252839,0.36904761904761907,False
-50452742,"Open research, stronger privacy: Making Firefox users harder to fingerprint",science,178,65,Vinnl,2026-11-13 19:42:07.253897,0.36312849162011174,True
-50459411,Adventures in Weight Space Programming,science,9,1,VictorSh,2026-11-13 19:42:07.254997,0.1,False
-50431075,Here comes the sun[light]:An ambient Daylight Clock with time and space controls,science,52,11,evakhoury,2026-11-13 19:42:07.255121,0.20754716981132076,False
-50406563,The end of Microsoft Research's AI Frontiers group,science,513,309,srean,2026-11-13 19:42:07.255577,0.6011673151750972,True
-50405674,Terry Pratchett's Study,science,164,46,ColinWright,2026-11-13 19:42:07.255853,0.2787878787878788,False
-50472869,"Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",science,7,0,noorsimar,2026-11-13 19:42:07.256260,0.0,False
-50470488,"Show HN: My $300 embroidery machine needed a subscription, so I built my own app",entertainment,607,206,simpsoka,2026-11-13 19:42:09.259000,0.33881578947368424,True
-50471650,"Show HN: AgentRun – open-source, Self-improving Managed Agents",entertainment,120,29,miguelrios,2026-11-13 19:42:09.259243,0.2396694214876033,False
-50474586,Show HN: RealtimeVAD – trading false positives for 110ms earlier end-of-speech,entertainment,28,5,koljab,2026-11-13 19:42:09.259499,0.1724137931034483,False
-50470343,Show HN: Apron Chat Protocol,entertainment,48,2,shazow,2026-11-13 19:42:09.259688,0.04081632653061224,False
-50454625,"Show HN: Yogurt – Free, private, open-source alternative to Granola",entertainment,292,111,brownrout,2026-11-13 19:42:09.259848,0.378839590443686,True
-50478543,"Show HN: PharmA2A, an open protocol for pharmacy-to-supplier orders on A2A",entertainment,11,4,eliefo,2026-11-13 19:42:09.259877,0.3333333333333333,False
-50415379,Show HN: Build a PC in 3D in the Browser,entertainment,56,22,ozaiworld,2026-11-13 19:42:09.259940,0.38596491228070173,False
-50457230,Show HN: I recreated Papers Please but you're deciding which YC startups to fund,entertainment,240,95,bolau,2026-11-13 19:42:09.260132,0.3941908713692946,True
-50474106,Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay,entertainment,12,4,lakshays,2026-11-13 19:42:09.260176,0.3076923076923077,False
-50458900,United Airlines bans AI agents from booking flights on behalf of travelers,entertainment,675,697,herpderperator,2026-11-13 19:42:09.260323,1.0310650887573964,True
-50441350,Show HN: Aircad – Professional drafting and 3D modeling in the browser,entertainment,92,43,peetle,2026-11-13 19:42:09.260385,0.46236559139784944,False
-50427107,Why I wrote the BEAM book (2025),entertainment,206,48,zenincognito,2026-11-13 19:42:09.260427,0.2318840579710145,True
-50449891,Show HN: Black Ops II statically recompiled to native ARM64 macOS,entertainment,149,66,adrbn,2026-11-13 19:42:09.260562,0.44,False
-50467880,Show HN: AI Red Lines – write down what would make you act on AI,entertainment,37,30,ap11071,2026-11-13 19:42:09.260723,0.7894736842105263,False
-50437242,M John Harrison becomes first science fiction author to win the Booker,entertainment,169,122,sorokod,2026-11-13 19:42:09.260767,0.7176470588235294,False
-50441518,"Show HN: Valencia, Spain in Sim City/Isometric View",entertainment,252,63,leugim,2026-11-13 19:42:09.260794,0.2490118577075099,True
-50468901,Show HN: I built a calendar app that gives each event its own to-do list,entertainment,13,3,whereinside,2026-11-13 19:42:09.260923,0.21428571428571427,False
-50477091,"Show HN: KittyBrowser, I built a web browser in your terminal",entertainment,5,4,graiz,2026-11-13 19:42:09.260951,0.6666666666666666,False
-50453229,"Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",entertainment,104,20,0xdeadf1sh,2026-11-13 19:42:09.261076,0.19047619047619047,False
-50454823,The Computer Graphics Book of Knowledge,entertainment,80,19,num42,2026-11-13 19:42:09.261116,0.2345679012345679,False
-50428907,"Show HN: Every satellite that passed over any place this week, and its photos",entertainment,487,85,a585gupt,2026-11-13 19:42:09.261464,0.17418032786885246,True
-50454951,"Show HN: Klad, a paint app your coding agent can drive (source-available)",entertainment,83,33,ambewas,2026-11-13 19:42:09.261716,0.39285714285714285,False
-50472560,Show HN: DRS-VPT. Localize a photo in a 3D point cloud without an initial pose,entertainment,9,0,seasponge,2026-11-13 19:42:09.261776,0.0,False
-50413266,Show HN: Micron – Oberon with the Power of C,entertainment,66,27,Rochus,2026-11-13 19:42:09.261884,0.40298507462686567,False
-50443812,"Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",entertainment,441,145,paulirish,2026-11-13 19:42:09.262107,0.32805429864253394,True
+50474959,Reverse engineering my Coway air purifier to ditch the cloud,technology,500,143,scottjg,2026-11-14 00:33:19.084107+05:30,0.28542914171656686,True
+50484235,A technical vision for the Haskell ecosystem,technology,118,45,cosmic_quanta,2026-11-14 00:33:19.084107+05:30,0.37815126050420167,False
+50486748,"AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",technology,129,16,bookofjoe,2026-11-14 00:33:19.084107+05:30,0.12307692307692308,False
+50486480,"Gnomon. Git for Postgres data, built for agents",technology,9,7,shawkisukkar,2026-11-14 00:33:19.084107+05:30,0.7,False
+50485295,Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers,technology,133,49,dvaplima,2026-11-14 00:33:19.084107+05:30,0.3656716417910448,False
+50486258,Apify Security Incident,technology,50,8,cynicalpeace,2026-11-14 00:33:19.084107+05:30,0.1568627450980392,False
+50481187,"Elevated errors on claude.ai, Claude Code, and platform.claude.com",technology,456,364,__vivek,2026-11-14 00:33:19.084107+05:30,0.7964989059080962,True
+50477649,Brave Search API now accepts agentic payments via the x402 protocol,technology,236,136,sjdh76,2026-11-14 00:33:19.084107+05:30,0.5738396624472574,True
+50487184,OpenAI disbands its robotics team as its general models start running robots,technology,15,1,sshah03,2026-11-14 00:33:19.084107+05:30,0.0625,False
+50481870,AI Is Destroying the Trust Between Writers and Readers,technology,237,134,FinnLobsien,2026-11-14 00:33:19.084107+05:30,0.5630252100840336,True
+50475713,Edge0-145B: Frontier AI Capabilities on Your Own Computer,technology,326,99,sroussey,2026-11-14 00:33:19.084107+05:30,0.30275229357798167,True
+50468888,I'm making LLMs work on small and old devices,technology,461,175,mrashad74,2026-11-14 00:33:19.084107+05:30,0.3787878787878788,True
+50480480,The Dawn of the Data Intelligence Engineer,technology,122,77,jonbaer,2026-11-14 00:33:19.084107+05:30,0.6260162601626016,False
+50487469,Are we just going to ignore that books are destroyed for AI?,technology,8,5,nyxtom,2026-11-14 00:33:19.084107+05:30,0.5555555555555556,False
+50484658,"Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]",technology,130,98,helloplanets,2026-11-14 00:33:19.084107+05:30,0.7480916030534351,False
+50484960,Why is Google cutting off Search from AI-free schools? Here are some theories,technology,90,87,kamaraju,2026-11-14 00:33:19.084107+05:30,0.9560439560439561,False
+50482455,Show HN: Reflota – Open-source data recovery for NTFS/FAT disks with phased copy,technology,24,3,christ_dev,2026-11-14 00:33:19.084107+05:30,0.12,False
+50467297,Our software engineering interviews are changing a little,technology,244,222,maitland,2026-11-14 00:33:19.084107+05:30,0.9061224489795918,True
+50471281,Show HN: Kapso – Iterative learning from enterprise data,technology,56,11,alirezamshi,2026-11-14 00:33:19.084107+05:30,0.19298245614035087,False
+50486637,"Yang-Mills, OpenAI proof, and the mass gap problem",technology,6,0,pretext,2026-11-14 00:33:19.084107+05:30,0.0,False
+50474883,Chinese frontier AI models carry the fingerprint of export-controlled GPUs,technology,349,144,firloop,2026-11-14 00:33:19.084107+05:30,0.4114285714285714,True
+50483512,macOS on PC becomes possible again thanks to Apple Silicon translator for x86-64,technology,15,0,Brajeshwar,2026-11-14 00:33:19.084107+05:30,0.0,False
+50472506,Vibes Don't Maintain,technology,105,42,dxs,2026-11-14 00:33:19.084107+05:30,0.39622641509433965,False
+50465352,Writing correct software is hard and math alone won’t help us (2016),technology,364,182,AriFordsham,2026-11-14 00:33:19.084107+05:30,0.4986301369863014,True
+50472490,Dwarf planet candidate appears which takes roughly 280 years to orbit our sun,worldnews,383,176,cybermango,2026-11-14 00:33:19.084107+05:30,0.4583333333333333,True
+50479098,Global Microsoft Outage,worldnews,273,172,TechTechTech,2026-11-14 00:33:19.084107+05:30,0.6277372262773723,True
+50486978,354 dark web vendors and buyers arrested in Europol-coordinated global crackdown,worldnews,5,0,jruohonen,2026-11-14 00:33:19.084107+05:30,0.0,False
+50459508,Words of warning about radiocarbon dating medieval human bones,worldnews,79,20,gumby,2026-11-14 00:33:19.084107+05:30,0.25,False
+50469994,Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep,worldnews,317,252,CharlesW,2026-11-14 00:33:19.084107+05:30,0.7924528301886793,True
+50437790,Queens Public Library under ransomware attack,worldnews,213,118,rustyhancock,2026-11-14 00:33:19.084107+05:30,0.5514018691588785,True
+50455332,"AI, activity, and outcomes in software engineering",worldnews,130,112,azhenley,2026-11-14 00:33:19.084107+05:30,0.8549618320610687,False
+50479045,Microsoft says attempts to fix global outage not going 'as expected',worldnews,86,69,saikatsg,2026-11-14 00:33:19.084107+05:30,0.7931034482758621,False
+50478372,Microsoft struggling to restore service as global outage affects services,worldnews,29,16,aussieguy1234,2026-11-14 00:33:19.084107+05:30,0.5333333333333333,False
+50477699,"Waymo robotaxis kept illegally passing school buses after software fix, feds say",worldnews,18,1,gmays,2026-11-14 00:33:19.084107+05:30,0.05263157894736842,False
+50482045,Europe's electric car sales jump 49% as global EV sales grow,worldnews,89,94,cisc,2026-11-14 00:33:19.084107+05:30,1.0444444444444445,False
+50476018,Tool Built by Election Deniers Said These Voters Were Dead. We Found Them Alive,worldnews,25,5,hn_acker,2026-11-14 00:33:19.084107+05:30,0.19230769230769232,False
+50481285,Nvidia scandal: Howard Lutnick under pressure over alleged lack of action,worldnews,6,0,nephihaha,2026-11-14 00:33:19.084107+05:30,0.0,False
+50461786,I caught Microsoft Defender uploading my unreleased software without asking,worldnews,64,27,gary23w,2026-11-14 00:33:19.084107+05:30,0.4153846153846154,False
+50435962,Make this forward pass as fast as possible,worldnews,32,6,matt_d,2026-11-14 00:33:19.084107+05:30,0.18181818181818182,False
+50422628,ChatGPT Desktop forwards your SSH agent to remote machines,worldnews,220,79,DenGorbachev,2026-11-14 00:33:19.084107+05:30,0.3574660633484163,True
+50406107,Psalm 7 release: PHP security&static analysis software,worldnews,81,49,danogentili,2026-11-14 00:33:19.084107+05:30,0.5975609756097561,False
+50423151,Borrowing a Microsoft-signed shim to abuse Secure Boot on corporate hardware,worldnews,49,13,p4p1,2026-11-14 00:33:19.084107+05:30,0.26,False
+50463540,I'm Working on a FOSS Linux Pinbal Simulation Engine,sports,129,45,sysrpl,2026-11-14 00:33:19.084107+05:30,0.34615384615384615,False
+50448921,A great old-timey game-programming hack (2013),sports,286,73,palsecam,2026-11-14 00:33:19.084107+05:30,0.25435540069686413,True
+50469007,Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games,sports,72,58,felixne,2026-11-14 00:33:19.084107+05:30,0.7945205479452054,False
+50414117,Show HN: Ghanaian street games you can play in the browser,sports,116,22,samuelaidoo45,2026-11-14 00:33:19.084107+05:30,0.18803418803418803,False
+50433659,Fable 5.2 one-shotted my nephew's dream game,sports,504,450,lexandstuff,2026-11-14 00:33:19.084107+05:30,0.8910891089108911,True
+50472411,Tell HN: Major Microsoft Outlook/Exchange Online/Teams Outage in the Americas,sports,13,2,wmchen,2026-11-14 00:33:19.084107+05:30,0.14285714285714285,False
+50405172,Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack,sports,93,22,hentrep,2026-11-14 00:33:19.084107+05:30,0.23404255319148937,False
+50460209,Making a Game Boy Advance Game with GPT-6 Astra,sports,5,0,jbm,2026-11-14 00:33:19.084107+05:30,0.0,False
+50465453,Researchers discover rare star system that emits radio signals every 8 minutes,science,137,67,giuliomagnifico,2026-11-14 00:33:19.084107+05:30,0.4855072463768116,False
+50482175,"Study Hard, Get a Career, Get Ahead? It's Not What It Used to Be",science,38,34,pseudolus,2026-11-14 00:33:19.084107+05:30,0.8717948717948718,False
+50445279,Research taste in history: the importance of learning Babylonian math,science,65,10,benbreen,2026-11-14 00:33:19.084107+05:30,0.15151515151515152,False
+50483510,FAA expands AI advice to manage air traffic congestion across US airspace,science,5,0,Brajeshwar,2026-11-14 00:33:19.084107+05:30,0.0,False
+50452655,Can a Linear Program Do Weight-Space Programming?,science,294,47,emschwartz,2026-11-14 00:33:19.084107+05:30,0.15932203389830507,True
+50450007,Greg Kurtzer's Ginux is now a userspace kernel,science,122,82,d3Xt3r,2026-11-14 00:33:19.084107+05:30,0.6666666666666666,False
+50444684,A comprehensive study of how fingerprintable users are,science,134,69,tomrittervg,2026-11-14 00:33:19.084107+05:30,0.5111111111111111,False
+50416640,Peer-to-peer WebRTC connections with built-in signaling and discovery,science,83,31,LuKks,2026-11-14 00:33:19.084107+05:30,0.36904761904761907,False
+50479113,"Researchers detail over 1,500 verified cases of children with past-life memories",science,13,14,ajmagnifico,2026-11-14 00:33:19.084107+05:30,1.0,False
+50452742,"Open research, stronger privacy: Making Firefox users harder to fingerprint",science,178,65,Vinnl,2026-11-14 00:33:19.084107+05:30,0.36312849162011174,True
+50431075,Here comes the sun[light]:An ambient Daylight Clock with time and space controls,science,52,11,evakhoury,2026-11-14 00:33:19.084107+05:30,0.20754716981132076,False
+50459411,Adventures in Weight Space Programming,science,9,1,VictorSh,2026-11-14 00:33:19.084107+05:30,0.1,False
+50406563,The end of Microsoft Research's AI Frontiers group,science,513,309,srean,2026-11-14 00:33:19.084107+05:30,0.6011673151750972,True
+50405674,Terry Pratchett's Study,science,165,46,ColinWright,2026-11-14 00:33:19.084107+05:30,0.27710843373493976,True
+50472869,"Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",science,7,0,noorsimar,2026-11-14 00:33:19.084107+05:30,0.0,False
+50487762,Models can now transmit viruses in weight-space,science,5,0,mkglees,2026-11-14 00:33:19.084107+05:30,0.0,False
+50487228,Show HN: Isometric SF – A pixel-art map of the SF Bay Area,entertainment,22,10,juscha1,2026-11-14 00:33:19.084107+05:30,0.43478260869565216,False
+50470488,"Show HN: My $300 embroidery machine needed a subscription, so I built my own app",entertainment,704,228,simpsoka,2026-11-14 00:33:19.084107+05:30,0.32340425531914896,True
+50471650,"Show HN: AgentRun – open-source, Self-improving Managed Agents",entertainment,131,34,miguelrios,2026-11-14 00:33:19.084107+05:30,0.25757575757575757,False
+50474586,Show HN: RealtimeVAD – trading false positives for 110ms earlier end-of-speech,entertainment,29,7,koljab,2026-11-14 00:33:19.084107+05:30,0.23333333333333334,False
+50470343,Show HN: Apron Chat Protocol,entertainment,53,2,shazow,2026-11-14 00:33:19.084107+05:30,0.037037037037037035,False
+50454625,"Show HN: Yogurt – Free, private, open-source alternative to Granola",entertainment,296,113,brownrout,2026-11-14 00:33:19.084107+05:30,0.38047138047138046,True
+50415379,Show HN: Build a PC in 3D in the Browser,entertainment,59,26,ozaiworld,2026-11-14 00:33:19.084107+05:30,0.43333333333333335,False
+50478543,"Show HN: PharmA2A, an open protocol for pharmacy-to-supplier orders on A2A",entertainment,12,4,eliefo,2026-11-14 00:33:19.084107+05:30,0.3076923076923077,False
+50457230,Show HN: I recreated Papers Please but you're deciding which YC startups to fund,entertainment,241,96,bolau,2026-11-14 00:33:19.084107+05:30,0.39669421487603307,True
+50458900,United Airlines bans AI agents from booking flights on behalf of travelers,entertainment,676,698,herpderperator,2026-11-14 00:33:19.084107+05:30,1.0310192023633677,True
+50427107,Why I wrote the BEAM book (2025),entertainment,209,48,zenincognito,2026-11-14 00:33:19.084107+05:30,0.22857142857142856,True
+50449891,Show HN: Black Ops II statically recompiled to native ARM64 macOS,entertainment,150,67,adrbn,2026-11-14 00:33:19.084107+05:30,0.44370860927152317,False
+50437242,M John Harrison becomes first science fiction author to win the Booker,entertainment,169,123,sorokod,2026-11-14 00:33:19.084107+05:30,0.7235294117647059,True
+50441518,"Show HN: Valencia, Spain in Sim City/Isometric View",entertainment,256,63,leugim,2026-11-14 00:33:19.084107+05:30,0.245136186770428,True
+50474106,Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay,entertainment,12,5,lakshays,2026-11-14 00:33:19.084107+05:30,0.38461538461538464,False
+50441350,Show HN: Aircad – Professional drafting and 3D modeling in the browser,entertainment,93,44,peetle,2026-11-14 00:33:19.084107+05:30,0.46808510638297873,False
+50477091,"Show HN: KittyBrowser, I built a web browser in your terminal",entertainment,7,6,graiz,2026-11-14 00:33:19.084107+05:30,0.75,False
+50453229,"Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",entertainment,104,20,0xdeadf1sh,2026-11-14 00:33:19.084107+05:30,0.19047619047619047,False
+50454823,The Computer Graphics Book of Knowledge,entertainment,81,19,num42,2026-11-14 00:33:19.084107+05:30,0.23170731707317074,False
+50468901,Show HN: I built a calendar app that gives each event its own to-do list,entertainment,15,4,whereinside,2026-11-14 00:33:19.084107+05:30,0.25,False
+50428907,"Show HN: Every satellite that passed over any place this week, and its photos",entertainment,488,85,a585gupt,2026-11-14 00:33:19.084107+05:30,0.1738241308793456,True
+50454951,"Show HN: Klad, a paint app your coding agent can drive (source-available)",entertainment,83,34,ambewas,2026-11-14 00:33:19.084107+05:30,0.40476190476190477,False
+50413266,Show HN: Micron – Oberon with the Power of C,entertainment,68,27,Rochus,2026-11-14 00:33:19.084107+05:30,0.391304347826087,False
+50443812,"Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",entertainment,442,146,paulirish,2026-11-14 00:33:19.084107+05:30,0.3295711060948081,True
+50472560,Show HN: DRS-VPT. Localize a photo in a 3D point cloud without an initial pose,entertainment,9,0,seasponge,2026-11-14 00:33:19.084107+05:30,0.0,False

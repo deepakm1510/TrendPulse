@@ -1,159 +1,321 @@
 
-# Task 1: TrendPulse - Data Collection
-
-# Import required libraries
 import requests
 import json
 import os
 import time
 from datetime import datetime
 
-# Hacker News API URLs
-TOP_STORIES_URL = "https://hacker-news.firebaseio.com/v0/topstories.json"
+# ---------------------------------------
+# 1. API URLs and Headers
+# ---------------------------------------
+
+TOP_STORIES_URL = (
+    "https://hacker-news.firebaseio.com/v0/topstories.json"
+)
+
+NEW_STORIES_URL = (
+    "https://hacker-news.firebaseio.com/v0/newstories.json"
+)
+
 ITEM_URL = "https://hacker-news.firebaseio.com/v0/item/{}.json"
 
-# Required User-Agent header
-headers = {
+HEADERS = {
     "User-Agent": "TrendPulse/1.0"
 }
 
-# Categories and their keywords
+# ---------------------------------------
+# 2. Categories and Assignment Keywords
+# ---------------------------------------
+
 categories = {
     "technology": [
         "AI", "software", "tech", "code", "computer",
         "data", "cloud", "API", "GPU", "LLM"
     ],
+
     "worldnews": [
         "war", "government", "country", "president",
         "election", "climate", "attack", "global"
     ],
+
     "sports": [
         "NFL", "NBA", "FIFA", "sport", "game",
         "team", "player", "league", "championship"
     ],
+
     "science": [
         "research", "study", "space", "physics",
         "biology", "discovery", "NASA", "genome"
     ],
+
     "entertainment": [
         "movie", "film", "music", "Netflix", "game",
         "book", "show", "award", "streaming"
     ]
 }
 
-# Maximum stories to collect in each category
-MAX_STORIES_PER_CATEGORY = 25
 
-# Fetch the top 500 story IDs from Hacker News
-try:
-    response = requests.get(
-        TOP_STORIES_URL,
-        headers=headers,
-        timeout=15
-    )
-    response.raise_for_status()
+# ---------------------------------------
+# 3. Fetch Story IDs
+# ---------------------------------------
 
-    story_ids = response.json()[:500]
-    print(f"Successfully fetched {len(story_ids)} story IDs.")
+def fetch_story_ids(url):
 
-except requests.RequestException as error:
-    print(f"Error fetching top stories: {error}")
-    story_ids = []
-
-# Fetch story details and store them for category processing
-all_stories = []
-
-for story_id in story_ids:
     try:
-        story_response = requests.get(
-            ITEM_URL.format(story_id),
-            headers=headers,
+        response = requests.get(
+            url,
+            headers=HEADERS,
             timeout=15
         )
-        story_response.raise_for_status()
 
-        story = story_response.json()
+        response.raise_for_status()
 
-        # Skip deleted, missing, or invalid stories
-        if not story or story.get("type") != "story":
-            continue
+        story_ids = response.json()
 
-        title = story.get("title", "")
+        return story_ids[:500]
 
-        if not title:
-            continue
+    except (requests.RequestException, ValueError) as error:
+        print("Error fetching story IDs:", error)
+        return []
 
-        all_stories.append(story)
 
-    except requests.RequestException as error:
+# ---------------------------------------
+# 4. Fetch Individual Story
+# ---------------------------------------
+
+def fetch_story(story_id):
+
+    try:
+        url = ITEM_URL.format(story_id)
+
+        response = requests.get(
+            url,
+            headers=HEADERS,
+            timeout=15
+        )
+
+        response.raise_for_status()
+
+        story = response.json()
+
+        if not story:
+            return None
+
+        if story.get("deleted") or story.get("dead"):
+            return None
+
+        if story.get("type") != "story":
+            return None
+
+        if not story.get("title"):
+            return None
+
+        return story
+
+    except (requests.RequestException, ValueError) as error:
         print(f"Error fetching story {story_id}: {error}")
-        continue
+        return None
 
-# Store collected stories
-collected_stories = []
 
-# Keep track of stories already assigned to a category
-assigned_story_ids = set()
+# ---------------------------------------
+# 5. Collect Story Details
+# ---------------------------------------
 
-# Process each category separately
-for category, keywords in categories.items():
+def collect_stories(story_ids):
 
-    category_count = 0
+    all_stories = []
 
-    print(f"\nCollecting {category} stories...")
+    for index, story_id in enumerate(story_ids, start=1):
 
-    for story in all_stories:
+        print(f"Fetching story {index}/{len(story_ids)}")
 
-        # Stop when the category reaches its limit
-        if category_count >= MAX_STORIES_PER_CATEGORY:
-            break
+        story = fetch_story(story_id)
 
-        story_id = story.get("id")
+        if story is not None:
+            all_stories.append(story)
 
-        # Avoid assigning the same story to multiple categories
-        if story_id in assigned_story_ids:
-            continue
+    return all_stories
 
-        title = story.get("title", "")
-        title_lower = title.lower()
 
-        # Check keywords without case sensitivity
-        if any(keyword.lower() in title_lower for keyword in keywords):
+# ---------------------------------------
+# 6. Match Keywords
+# ---------------------------------------
 
-            collected_stories.append({
-                "post_id": story_id,
-                "title": title,
-                "category": category,
-                "score": story.get("score", 0),
-                "num_comments": story.get("descendants", 0),
-                "author": story.get("by", "Unknown"),
-                "collected_at": datetime.now().isoformat()
-            })
+def matches_keyword(title, keywords):
 
-            assigned_story_ids.add(story_id)
-            category_count += 1
+    title_lower = title.lower()
 
-    print(f"{category}: {category_count} stories collected.")
+    for keyword in keywords:
 
-    # Wait 2 seconds between category loops
-    if category != list(categories.keys())[-1]:
-        time.sleep(2)
+        if keyword.lower() in title_lower:
+            return True
 
-# Create the data folder
-os.makedirs("data", exist_ok=True)
+    return False
 
-# Save collected stories as JSON
-filename = f"data/trends_{datetime.now().strftime('%Y%m%d')}.json"
 
-with open(filename, "w", encoding="utf-8") as file:
-    json.dump(
-        collected_stories,
-        file,
-        indent=4,
-        ensure_ascii=False
-    )
+# ---------------------------------------
+# 7. Categorize Stories
+# ---------------------------------------
 
-# Print collection summary
-print("\nData collection completed!")
-print(f"Total stories collected: {len(collected_stories)}")
-print(f"Saved file: {filename}")
+def categorize_stories(all_stories):
+
+    categorized_stories = []
+
+    assigned_story_ids = set()
+
+    collected_at = datetime.now().astimezone().isoformat()
+
+    for category_index, (category, keywords) in enumerate(
+        categories.items()
+    ):
+
+        category_count = 0
+
+        print(f"\nCollecting {category} stories...")
+
+        for story in all_stories:
+
+            if category_count >= 25:
+                break
+
+            story_id = story.get("id")
+            title = story.get("title", "")
+
+            # Avoid duplicate stories
+            if story_id in assigned_story_ids:
+                continue
+
+            # Check whether the title matches a keyword
+            if matches_keyword(title, keywords):
+
+                story_data = {
+                    "post_id": story_id,
+                    "title": title,
+                    "category": category,
+                    "score": story.get("score", 0),
+                    "num_comments": story.get("descendants", 0),
+                    "author": story.get("by", "Unknown"),
+                    "collected_at": collected_at
+                }
+
+                categorized_stories.append(story_data)
+
+                assigned_story_ids.add(story_id)
+
+                category_count += 1
+
+        print(f"{category}: {category_count} stories collected")
+
+        # Wait 2 seconds between category loops
+        if category_index < len(categories) - 1:
+            time.sleep(2)
+
+    return categorized_stories
+
+
+# ---------------------------------------
+# 8. Main Program
+# ---------------------------------------
+
+def main():
+
+    print("=" * 50)
+    print("TRENDPULSE - DATA COLLECTION")
+    print("=" * 50)
+
+    # Fetch first 500 Top Story IDs
+    print("\nFetching first 500 Top Story IDs...")
+
+    top_story_ids = fetch_story_ids(TOP_STORIES_URL)
+
+    print("Top story IDs fetched:", len(top_story_ids))
+
+    # Fetch individual story details
+    print("\nFetching individual story details...")
+
+    all_stories = collect_stories(top_story_ids)
+
+    print("\nValid stories fetched:", len(all_stories))
+
+    # Categorize Top Stories
+    print("\nStarting categorization...")
+
+    categorized_stories = categorize_stories(all_stories)
+
+    # Optional fallback: use only if instructor permits
+    if len(categorized_stories) < 100:
+
+        print("\nFewer than 100 stories found.")
+        print("Checking additional New Stories...")
+
+        new_story_ids = fetch_story_ids(NEW_STORIES_URL)
+
+        existing_ids = {
+            story["id"] for story in all_stories
+        }
+
+        additional_ids = [
+            story_id for story_id in new_story_ids
+            if story_id not in existing_ids
+        ]
+
+        additional_stories = collect_stories(additional_ids)
+
+        all_stories.extend(additional_stories)
+
+        categorized_stories = categorize_stories(all_stories)
+
+    # ---------------------------------------
+    # 9. Save JSON File
+    # ---------------------------------------
+
+    os.makedirs("data", exist_ok=True)
+
+    date_string = datetime.now().strftime("%Y%m%d")
+
+    file_name = f"data/trends_{date_string}.json"
+
+    with open(file_name, "w", encoding="utf-8") as file:
+
+        json.dump(
+            categorized_stories,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    # ---------------------------------------
+    # 10. Display Results
+    # ---------------------------------------
+
+    print("\n" + "=" * 50)
+    print("DATA COLLECTION COMPLETED")
+    print("=" * 50)
+
+    print("Total stories collected:", len(categorized_stories))
+
+    print("Saved JSON file:", file_name)
+
+    print("\nCategory-wise story counts:")
+
+    for category in categories:
+
+        count = sum(
+            1 for story in categorized_stories
+            if story["category"] == category
+        )
+
+        print(f"{category}: {count}")
+
+    if len(categorized_stories) >= 100:
+        print("\nSUCCESS: 100 or more stories collected.")
+    else:
+        print("\nWARNING: Fewer than 100 matching stories found.")
+
+
+# ---------------------------------------
+# 11. Run Program
+# ---------------------------------------
+
+if __name__ == "__main__":
+    main()
